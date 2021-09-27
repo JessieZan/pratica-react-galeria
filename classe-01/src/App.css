@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+
+  height: 100vh;
+  width: 100%;
+
+  font-family: "Roboto";
+}
+
+.hidden {
+  display: none;
+}
+
+.gallery {
+  width: 70%;
+
+  gap: 30px;
+}
+
+.gallery__item {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+button {
+  all: unset;
+}
+
+.side-menu {
+  padding: 20px;
+  background-color: #313131;
+  gap: 40px;
+
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.main {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.item__title {
+  font-size: 20px;
+  line-height: 23px;
+}
+
+
+.item__date {
+  font-size: 20px;
+  line-height: 23px;
+  
+  color: #5C5C5C;
+}
+
+.menu-label {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #888888;
+}
+
+.menu-label__active {
+  color: #FFFFFF;
+}
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.6);
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.modal__button {
+  all: unset;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.modal__button--close {
+  position: absolute;
+
+  top: 90px;
+  right: 45px;
+}
+
+.modal__container {
+  position: relative;
+}
+
+.modal__image {
+  width: 500px;
+  height: auto;
+}
+
+.modal__like {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+}
+
+.modal__button--previous {
+  position: absolute;
+  left: -100px;
+}
+
+.modal__button--next {
+  position: absolute;
+  right: -100px;
+}
+.gallery__like {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
